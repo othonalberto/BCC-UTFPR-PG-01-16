@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /*
  * Autor: Matheus Scaketti
  * Data: 16/03/2016
@@ -13,6 +11,8 @@ import java.util.Scanner;
  * que recebe por carro vendido e calcula o salário mensal do vendedor, escrevendo-o 
  * juntamente com o seu número de identificação.
 */
+
+import java.util.Scanner;
 
 public class L1e4_CalcSalarRevend {
 

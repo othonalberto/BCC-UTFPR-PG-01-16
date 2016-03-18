@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /*
  * Autor: Matheus Scaketti
  * Data: 16/03/2016
@@ -11,6 +9,8 @@ import java.util.Scanner;
  * O exercício pede que seja inserido 3 valores para a, b e c e calcule
  * o semi perímetro(s) e após isso calcular a área do triângulo
 */
+
+import java.util.Scanner;
 
 public class L1e1_CalcTriang{
 	

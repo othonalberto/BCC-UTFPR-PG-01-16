@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /*
  * Autor: Matheus Scaketti
  * Data: 16/03/2016
@@ -13,6 +11,8 @@ import java.util.Scanner;
  * que ganha sobre o total de vendas. Calcular o salário total do vendedor. 
  * Escrever número do vendedor e o salário total.
 */
+
+import java.util.Scanner;
 
 public class L1e3_CalcSalar {
 
