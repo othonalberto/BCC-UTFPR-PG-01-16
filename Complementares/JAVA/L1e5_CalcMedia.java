@@ -33,7 +33,7 @@ public class L1e5_CalcMedia {
 		p3 *= 5;
 		
 		//cálculo da média das notas.
-		media = (p1 + p2 + p3)/3;
+		media = (p1 + p2 + p3)/10;
 		
 		leitor.close();
 		

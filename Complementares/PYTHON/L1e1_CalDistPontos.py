@@ -23,7 +23,7 @@ py2 = input("Digite o valor de Y2: ")
 
 distancia = math.sqrt( ((px2 - px1) ** 2) + (py2 - py1)**2)
 
-print "Distância entre os pontos: ", distancia
+print ("Distância entre os pontos: {0}" .format(distancia))
 
 
 
