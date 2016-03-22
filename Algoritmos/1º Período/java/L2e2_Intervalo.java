@@ -10,11 +10,9 @@
  * Após isso, informa em qual intervalo o n está.
 */
 
-package exerciciosJava;
-
 import java.util.Scanner;
 
-public class E2l2_Intervalo {
+public class L2e2_Intervalo {
 	
 	public static void main(String[] args){
 		
@@ -35,14 +33,14 @@ public class E2l2_Intervalo {
 		
 		leitor.close();
 		
-		if (n > a && n < d){
-			System.out.println(n + " está entre " + a + " e " + d + ". Portanto, pertence ao intervalo de [A, D].");
+		if (n > a && n < b && n < c){
+			System.out.println(n + " está entre " + a + " e " + b + ". Portanto, pertence ao primeiro intervalo.");
 		} else{
-			if (n > a && n < b){
-				System.out.println(n + " está entre " + a + " e " + b + ". Portanto, pertence ao primeiro intervalo.");
+			if (n > c && n < d && n > b){
+				System.out.println(n + " está entre " + c + " e " + d + ". Portanto, pertence ao segundo intervalo.");
 			} else{
-				if (n > c && n < d){
-					System.out.println(n + " está entre " + c + " e " + d + ". Portanto, pertence ao primeiro intervalo.");
+				if (n > a && n < d){
+					System.out.println(n + " está entre " + a + " e " + d + ". Portanto, pertence ao intervalo de [A, D].");
 				}
 			}
 		}
