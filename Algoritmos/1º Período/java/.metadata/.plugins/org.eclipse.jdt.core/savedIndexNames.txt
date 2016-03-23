@@ -1,0 +1,1 @@
+INDEX VERSION 1.127+/Users/othonalberto/github_repos/BCC-UTFPR-PG-01-16/Algoritmos/1º Período/java/.metadata/.plugins/org.eclipse.jdt.core
