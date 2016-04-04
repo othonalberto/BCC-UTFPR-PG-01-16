@@ -18,10 +18,8 @@ int main(){
     for (x = 1; x < 11; x++){
         
         // variável s recebe ela mesma mais o valor de 'x' dividido por 'x' ao quadrado
-        s = (x / (x*x));
-        
-        printf("%.4f\n", s);
+        s += (x / (x*x));
     }
     
-    
+    printf("%.4f", s);
 }
