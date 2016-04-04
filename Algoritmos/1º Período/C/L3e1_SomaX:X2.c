@@ -13,13 +13,15 @@
 #include <stdio.h>
 
 int main(){
-    int x, s = 0;
+    float x, s = 0;
     
     for (x = 1; x < 11; x++){
         
         // variável s recebe ela mesma mais o valor de 'x' dividido por 'x' ao quadrado
-        s += (x / (x*x));
+        s = (x / (x*x));
+        
+        printf("%.4f\n", s);
     }
     
-    printf("%i", s);
+    
 }
