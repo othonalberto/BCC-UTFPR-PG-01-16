@@ -2,7 +2,7 @@
  * Autor: Matheus Scaketti
  * Data: 06/04/2016
  * 
- * Lista: 2
+ * Lista: 3
  * Exercício: 3
  * 
  * Descrição: Número perfeito é aquele cuja soma de seus divisores, 
